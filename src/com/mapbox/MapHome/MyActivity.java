@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import com.mapbox.mapboxsdk.MapView;
 import org.osmdroid.api.IMapController;
 import org.osmdroid.util.GeoPoint;
@@ -41,6 +42,9 @@ public class MyActivity extends Activity {
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
         weekDay = getWeekdayString(day);
+        TextView weekDayView = (TextView) findViewById(R.id.weekday);
+        weekDayView.setTypeface(light);
+        weekDayView.setText(weekDay);
     }
 
     private String getWeekdayString(int day) {

@@ -28,7 +28,7 @@
     <ignored path="MapHome.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385257509289" ignored="false" />
-    <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607508601" ignored="false" />
+    <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607716892" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mapbox/MapHome/Manifest.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606013183" ignored="false" />
     <file path="/fragment.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385261775254" ignored="false" />
     <file path="$PROJECT_DIR$/../Home/AndroidManifest.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385428256280" ignored="false" />
@@ -38,7 +38,7 @@
     <file path="$PROJECT_DIR$/../HomeTrial/res/values/strings.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385429061644" ignored="false" />
     <file path="$PROJECT_DIR$/../HomeTrial/build.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385429061644" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385429396220" ignored="false" />
-    <file path="/main.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606077455" ignored="false" />
+    <file path="/main.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607600089" ignored="false" />
     <file path="$PROJECT_DIR$/../mapbox-android-sdk/src/src/com/mapbox/mapboxsdk/Tooltip.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385575115001" ignored="false" />
     <file path="/Tooltip.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385564870461" ignored="false" />
     <file path="$PROJECT_DIR$/../mapbox-android-sdk/src/src/com/mapbox/mapboxsdk/Marker.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385475293692" ignored="false" />
@@ -51,6 +51,7 @@
     <file path="$PROJECT_DIR$/../mapbox-android-sdk/src/main/java/org/osmdroid/tileprovider/MapTileProviderBasic.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385576400630" ignored="false" />
     <file path="$PROJECT_DIR$/../mapbox-android-sdk/src/main/java/org/osmdroid/tileprovider/modules/MapTileDownloader.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385578060664" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mapbox/MapHome/R.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606013183" ignored="false" />
+    <file path="$PROJECT_DIR$/res/values/colors.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607838740" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,10 +112,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="61" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.023376623">
+            <state line="42" column="35" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,19 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="20" selection-start="506" selection-end="506" vertical-scroll-proportion="-3.98">
+            <state line="15" column="103" selection-start="804" selection-end="804" vertical-scroll-proportion="0.65970147">
               <folding />
             </state>
           </provider>
@@ -154,8 +146,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
       </list>
     </option>
   </component>
@@ -460,6 +452,8 @@
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.6704731" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.6704731" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6704731" order="3" side_tool="false" content_ui="tabs" />
@@ -475,11 +469,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6704731" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25038052" sideWeight="0.6704731" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67373574" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67373574" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -655,29 +647,29 @@
         <state line="19" column="47" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="506" selection-end="506" vertical-scroll-proportion="-3.98">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="40" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
+        <state line="36" column="40" selection-start="1878" selection-end="1878" vertical-scroll-proportion="1.1324675">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="61" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.023376623">
+        <state line="42" column="35" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="103" selection-start="804" selection-end="804" vertical-scroll-proportion="0.65970147">
+          <folding />
         </state>
       </provider>
     </entry>
