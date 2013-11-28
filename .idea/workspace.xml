@@ -27,7 +27,6 @@
     <list default="true" id="cfcabab5-6d2b-4d7f-9789-8749a360e70a" name="Default" comment="" />
     <ignored path="MapHome.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385257509289" ignored="false" />
     <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607923647" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mapbox/MapHome/Manifest.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606013183" ignored="false" />
     <file path="/fragment.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385261775254" ignored="false" />
@@ -51,7 +50,7 @@
     <file path="$PROJECT_DIR$/../mapbox-android-sdk/src/main/java/org/osmdroid/tileprovider/MapTileProviderBasic.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385576400630" ignored="false" />
     <file path="$PROJECT_DIR$/../mapbox-android-sdk/src/main/java/org/osmdroid/tileprovider/modules/MapTileDownloader.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385578060664" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mapbox/MapHome/R.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606013183" ignored="false" />
-    <file path="$PROJECT_DIR$/res/values/colors.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607838740" ignored="false" />
+    <file path="/colors.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385608212744" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,15 +122,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="105" selection-start="695" selection-end="695" vertical-scroll-proportion="0.6089552">
+            <state line="14" column="105" selection-start="695" selection-end="695" vertical-scroll-proportion="-4.08">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="31" selection-start="82" selection-end="82" vertical-scroll-proportion="0.094444446">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -148,6 +156,7 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
       </list>
     </option>
   </component>
@@ -234,6 +243,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -250,6 +263,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MapHome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MapHome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,7 +496,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25038052" sideWeight="0.6704731" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6704731" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -543,15 +570,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/src.jar!/com/mapbox/mapboxsdk/MapView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="47" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" />
@@ -668,7 +686,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="105" selection-start="695" selection-end="695" vertical-scroll-proportion="0.6089552">
+        <state line="14" column="105" selection-start="695" selection-end="695" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="82" selection-end="82" vertical-scroll-proportion="0.094444446">
           <folding />
         </state>
       </provider>
