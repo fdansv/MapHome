@@ -28,7 +28,7 @@
     <ignored path="MapHome.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385257509289" ignored="false" />
-    <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607350666" ignored="false" />
+    <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385607508601" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mapbox/MapHome/Manifest.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606013183" ignored="false" />
     <file path="/fragment.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385261775254" ignored="false" />
     <file path="$PROJECT_DIR$/../Home/AndroidManifest.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385428256280" ignored="false" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="20" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.8675325">
+            <state line="39" column="61" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.023376623">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -674,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.8675325">
+        <state line="39" column="61" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.023376623">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

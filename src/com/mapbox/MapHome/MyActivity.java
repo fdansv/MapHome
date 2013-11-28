@@ -26,11 +26,15 @@ public class MyActivity extends Activity {
         mv = (MapView) findViewById(R.id.mapview);
         System.out.println("rl "+mv);
         mv.setURL("http://a.tiles.mapbox.com/v3/fdansv.maphome/");
-        mapController = mv.getController();
+        loadMapCamera();
+        loadFonts();
+        setDayOfWeek();
+
+    }
+
+    private void loadMapCamera() {mapController = mv.getController();
         mapController.setCenter(new GeoPoint(0f,0f));
         mapController.setZoom(3);
-        setDayOfWeek();
-        loadFonts();
     }
 
     private void setDayOfWeek() {
