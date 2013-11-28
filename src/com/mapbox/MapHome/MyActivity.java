@@ -43,7 +43,7 @@ public class MyActivity extends Activity {
         int day = calendar.get(Calendar.DAY_OF_WEEK);
         weekDay = getWeekdayString(day);
         TextView weekDayView = (TextView) findViewById(R.id.weekday);
-        weekDayView.setTypeface(light);
+        weekDayView.setTypeface(bold);
         weekDayView.setText(weekDay);
     }
 
