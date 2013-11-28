@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="srac">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/srac.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
