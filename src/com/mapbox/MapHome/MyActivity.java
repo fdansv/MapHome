@@ -44,6 +44,7 @@ public class MyActivity extends Activity {
         String day = getDayOfMonthSuffix();
         String year = new SimpleDateFormat("yyyy").format(theDate);
         date = (TextView)findViewById(R.id.date);
+        date.setTypeface(lightItalic);
         date.setText(month+" "+day+", "+year);
     }
 
