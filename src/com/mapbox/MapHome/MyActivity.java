@@ -5,10 +5,14 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 import com.mapbox.mapboxsdk.MapView;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.osmdroid.api.IMapController;
 import org.osmdroid.util.GeoPoint;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -35,6 +39,20 @@ public class MyActivity extends Activity {
         loadMapCamera();
         loadFonts();
         setDate();
+        getNews();
+    }
+
+    private void getNews() {
+        try {
+            Document doc = Jsoup.connect("http://www.reuters.com/news/world").get();
+            parseNewsRoot(doc);
+        } catch (IOException e) {
+            Toast.makeText(this, getString(R.string.notnews), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void parseNewsRoot(Document doc) {
+
     }
 
     private void setDate() {

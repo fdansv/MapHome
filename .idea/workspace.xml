@@ -27,7 +27,7 @@
     <list default="true" id="cfcabab5-6d2b-4d7f-9789-8749a360e70a" name="Default" comment="" />
     <ignored path="MapHome.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385693061281" ignored="false" />
+    <file path="/MyActivity.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385694129662" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/mapbox/MapHome/Manifest.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385606013183" ignored="false" />
     <file path="/fragment.java" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385690884794" ignored="false" />
     <file path="$PROJECT_DIR$/../Home/AndroidManifest.xml" changelist="cfcabab5-6d2b-4d7f-9789-8749a360e70a" time="1385428256280" ignored="false" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="49" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.7448454">
+            <state line="47" column="39" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.33247423">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -711,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapbox/MapHome/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="49" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.7448454">
+        <state line="47" column="39" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.33247423">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
