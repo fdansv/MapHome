@@ -16,7 +16,8 @@ public class MyActivity extends Activity {
     private MapView mv;
     private RelativeLayout rl;
 
-    String weekDay = "";
+    private Calendar calendar = Calendar.getInstance();
+    private String weekDay = "";
     private Typeface bold, boldItalic, light, lightItalic;
 
     @Override
@@ -39,7 +40,6 @@ public class MyActivity extends Activity {
     }
 
     private void setDayOfWeek() {
-        Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
         weekDay = getWeekdayString(day);
         TextView weekDayView = (TextView) findViewById(R.id.weekday);

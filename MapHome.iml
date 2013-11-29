@@ -14,8 +14,9 @@
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="mapbox-android-sdk" />
+    <orderEntry type="module" module-name="main" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="srac" level="project" />
   </component>
 </module>
 
