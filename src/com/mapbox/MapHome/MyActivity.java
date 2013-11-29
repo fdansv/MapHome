@@ -9,16 +9,20 @@ import com.mapbox.mapboxsdk.MapView;
 import org.osmdroid.api.IMapController;
 import org.osmdroid.util.GeoPoint;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 public class MyActivity extends Activity {
     private IMapController mapController;
     private MapView mv;
     private RelativeLayout rl;
 
+    private Date theDate;
     private Calendar calendar = Calendar.getInstance();
     private String weekDay = "";
     private Typeface bold, boldItalic, light, lightItalic;
+    private TextView date;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,8 +34,17 @@ public class MyActivity extends Activity {
         mv.setURL("http://a.tiles.mapbox.com/v3/fdansv.maphome/");
         loadMapCamera();
         loadFonts();
-        setDayOfWeek();
+        setDate();
+    }
 
+    private void setDate() {
+        setDayOfWeek();
+        theDate = calendar.getTime();
+        String month = new SimpleDateFormat("MMMM").format(theDate);
+        String day = getDayOfMonthSuffix();
+        String year = new SimpleDateFormat("yyyy").format(theDate);
+        date = (TextView)findViewById(R.id.date);
+        date.setText(month+" "+day+", "+year);
     }
 
     private void loadMapCamera() {mapController = mv.getController();
@@ -64,5 +77,21 @@ public class MyActivity extends Activity {
         boldItalic = Typeface.createFromAsset(this.getAssets(), "OpenSansBoldItalic.ttf");
         light = Typeface.createFromAsset(this.getAssets(), "OpenSansLight.ttf");
         lightItalic = Typeface.createFromAsset(this.getAssets(), "OpenSansLightItalic.ttf");
+    }
+    private String getDayOfMonthSuffix() {
+        String[] suffixes =
+                //    0     1     2     3     4     5     6     7     8     9
+                { "th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th",
+                        //    10    11    12    13    14    15    16    17    18    19
+                        "th", "th", "th", "th", "th", "th", "th", "th", "th", "th",
+                        //    20    21    22    23    24    25    26    27    28    29
+                        "th", "st", "nd", "rd", "th", "th", "th", "th", "th", "th",
+                        //    30    31
+                        "th", "st" };
+
+        SimpleDateFormat formatDateOfMonth  = new SimpleDateFormat("d");
+        int day = Integer.parseInt(formatDateOfMonth.format(theDate));
+        return day + suffixes[day];
+
     }
 }
